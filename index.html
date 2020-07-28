@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f1aedcce65.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <img src="main.png" id="img" alt="">
+        <div class="inputBar">
+            <input type="text" id="todoInput" placeholder="Add todo item">
+            <br>
+            <button id="todoAddBtn" onclick="addTask()">Add Task</button>
+            <button id="todoDelBtn" onclick="deleteAll()">Delete All</button>
+            <hr>
+        </div>
+        <ol id="todoList">
+
+        </ol>
+    </div>
+
+    <script src="app.js"></script>
+    <script defer src="/your-path-to-fontawesome/js/all.js"></script>
+</body>
+
+</html>
